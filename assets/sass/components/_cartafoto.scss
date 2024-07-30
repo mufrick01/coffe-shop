@@ -1,0 +1,41 @@
+.cartafoto{
+    background:url(/assets/images/img-1.png);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+
+    
+    &>.cartafoto__whiteblock{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 120px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        &>div{
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            max-width: 200px;
+
+            &>h3{
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+                font-size: 3rem;
+            }
+            
+            &>p{
+                display: inline-block;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,33 @@
+.infozone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &>.info{
+        height: 80%;
+        text-align: center;
+
+        &>h2{
+            font-size: 2.5rem;
+        }
+        &>p{
+            font-size: 1rem;
+            display: block;
+            margin: 0 auto;
+            max-width: 70%;
+        }
+    }
+    &>.mapa{
+        background-color: blue;
+        height: 90%;
+        position: relative;
+
+        &>img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 30px;
+            left: -50px;
+            object-fit: contain;
+        }
+    }
+}

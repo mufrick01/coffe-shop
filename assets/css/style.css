@@ -1,0 +1,153 @@
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: aquamarine;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+.main {
+  margin: 20px auto;
+  max-width: 1400px;
+  height: 800px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.cartafoto {
+  background: url(/assets/images/img-1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.cartafoto > .cartafoto__whiteblock {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 120px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.cartafoto > .cartafoto__whiteblock > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  max-width: 200px;
+}
+.cartafoto > .cartafoto__whiteblock > div > h3 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+.cartafoto > .cartafoto__whiteblock > div > p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.brandzone {
+  display: flex;
+  flex-flow: column;
+  padding: 30px;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+}
+.brandzone > h2 {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  font-size: 3rem;
+  text-align: left;
+}
+.brandzone > h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.brandzone > .fondo {
+  background-color: orange;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.brandzone > .flecha {
+  background-color: orangered;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  bottom: 15pt;
+  left: -10pt;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+.brandzone > .flecha > h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin: auto;
+  background: red;
+}
+
+.cartaFotoSecundaria {
+  background: url(/assets/images/img-2.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.cartaFotoSecundaria > img {
+  height: 150pt;
+  width: 70pt;
+  object-fit: cover;
+  object-position: 40% 50%;
+  position: absolute;
+  top: 0;
+  left: -35px;
+}
+
+.infozone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.infozone > .info {
+  height: 80%;
+  text-align: center;
+}
+.infozone > .info > h2 {
+  font-size: 2.5rem;
+}
+.infozone > .info > p {
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
+.infozone > .mapa {
+  background-color: blue;
+  height: 90%;
+  position: relative;
+}
+.infozone > .mapa > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */

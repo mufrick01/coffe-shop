@@ -1,0 +1,53 @@
+.brandzone{
+    display: flex;
+    flex-flow: column;
+    padding:30px;
+    position: relative;
+
+    align-content: center;
+    justify-content: center;
+    
+    &>h2{
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    &>h4{
+        padding: 0;
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    &>.fondo{
+        background-color: orange;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        bottom: 0;
+        left:  0;
+    }
+
+    &>.flecha{
+        background-color: orangered;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        bottom: 15pt;
+        left: -10pt;
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        
+        &>h2{
+            font-size: 5rem;
+            text-align: center;
+            margin: auto;
+            background: red;
+        }
+
+    }
+}

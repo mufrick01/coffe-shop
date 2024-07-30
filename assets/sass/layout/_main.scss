@@ -1,0 +1,10 @@
+.main{
+    margin: 20px auto;
+    max-width: 1400px;
+    height: 800px;
+    width: 100vw;
+    
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-template-rows: 2fr 1fr;
+}

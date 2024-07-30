@@ -1,0 +1,19 @@
+.cartaFotoSecundaria{
+  
+    background: url(/assets/images/img-2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    &>img{
+        height: 150pt;
+        width: 70pt;
+        object-fit: cover;
+        object-position: 40% 50%;
+        position: absolute;
+        top: 0;
+        left: -35px;
+    }
+   
+}
