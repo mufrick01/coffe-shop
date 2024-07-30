@@ -8,22 +8,24 @@
     justify-content: center;
     
     &>h2{
+        font-size: $fontsize-xxx-large;
         padding: 0;
         margin: 0;
         width: 200px;
-        font-size: 4rem;
         text-align: left;
     }
-
+    
     &>h4{
+        font-size: $fontsize-large;
         padding: 0;
-        margin: 0 0 50px 0;
-        font-size: 1.2rem;
+        margin: 0 0 80px 0;
         text-align: left;
+        font-weight: 400;
+        color: $color-quick-silver;
     }
 
     &>.fondo{
-        background-color: orange;
+        background-color: $color-coral;
         height: 120px;
         width: 120px;
         position: absolute;
@@ -32,7 +34,7 @@
     }
 
     &>.flecha{
-        background-color: orangered;
+        background-color: $color-flame;
         height: 120px;
         width: 120px;
         position: absolute;
@@ -40,7 +42,7 @@
         left: -10pt;
         display: flex;
         justify-content: center;
-        color: aliceblue;
+        color: $color-white;
         
         &>h2{
             font-size: 5rem;
