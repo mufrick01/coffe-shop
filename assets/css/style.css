@@ -29,11 +29,12 @@ p {
 .header {
   height: 100px;
   width: 100vw;
-  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: 1200px;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -42,19 +43,19 @@ p {
 
 .navbar {
   background-color: #fff;
-  width: 100%;
+  max-width: 1200px;
+  width: 100vw;
   height: 100%;
   display: flex;
   align-items: center;
 }
 .navbar > .navbar__brandImg {
-  margin-left: 20px;
-  height: 90%;
+  height: 60%;
+  margin-right: 50px;
 }
 .navbar > .navbar__navigation-zone {
   flex-grow: 1;
   display: flex;
-  padding: 0 10%;
 }
 .navbar > .navbar__navigation-zone > ul {
   display: flex;
