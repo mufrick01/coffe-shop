@@ -7,13 +7,13 @@
     position: relative;
 
     &>img{
-        height: 150pt;
-        width: 70pt;
+        height: 120px;
+        width: 50px;
         object-fit: cover;
         object-position: 40% 50%;
         position: absolute;
         top: 0;
-        left: -35px;
+        left: -25px;
     }
    
 }
