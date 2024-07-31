@@ -64,6 +64,7 @@ p {
 .navbar > .navbar__navigation-zone > ul > li {
   padding-left: 20px;
   font-size: 16px;
+  list-style: none;
 }
 .navbar > .navbar__navigation-zone > ul > li > a {
   color: #989797;
